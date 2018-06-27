@@ -1,0 +1,67 @@
+.content-center {
+    width: 70%;
+    margin: 20px auto;
+}
+
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;   
+    padding-left: 5px; 
+}
+
+table #fixed-col {
+    width: 60px;
+}
+
+.content-center #topic {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content-center #add-new {
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    float: right;
+    padding: 5px;
+    color: black;
+    border: 1px solid #4CAF50;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content-center #add-new:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.content-center #report {
+    margin: 5% 20%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: black;
+    border: 1px solid #4CAF50;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.content-center #report:hover{
+    background-color: #4CAF50;
+    color: white;
+}

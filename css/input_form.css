@@ -1,0 +1,32 @@
+#add-item-form {
+    width: 520px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 3px black;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+#add-item-form table {
+    width: 500px;
+}
+
+#label-col {
+    text-align: right;
+    width: 125px;
+    padding-right: 20px;
+}
+
+#input-col {
+    width: auto;
+    text-align: left;
+}
+
+#add-item-form input {
+    width: 100%;
+}
+
+#add-item-form textarea {
+    width: 100%;
+}
