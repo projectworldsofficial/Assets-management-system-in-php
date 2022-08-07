@@ -84,7 +84,7 @@ if(logged_in() === false){
             }else {
 
             if (empty($_POST) === false and empty($errors)===true) {
-                $dt=date();
+                $dt=date("HH:mm:ss%20yyyy-MM-dd");
                 $asset_data = array(
                     'userid'    => $user_data['id'],
                     'title'     => $_POST['title'],
